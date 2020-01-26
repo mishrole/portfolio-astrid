@@ -1,0 +1,54 @@
+.center {
+    text-align: center;
+}
+
+.ul-nav-rox {
+    margin-left: auto;
+    white-space: nowrap;
+    text-align: right;
+    padding: 1.5rem 1rem;
+}
+
+.ul-services-rox {
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+}
+
+.ul-services-rox li {
+    position: relative;
+    display: block;
+}
+
+#servicios {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#servicios h4 {
+    padding: 2.5rem 0 4rem;
+}
+
+#container-carousel {
+    padding-top: 3rem;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media (min-width: 1024px) {
+    li.nav-item {
+        margin-left: 1rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    li.nav-item {
+        margin-left: 1.5rem !important;
+    }
+}

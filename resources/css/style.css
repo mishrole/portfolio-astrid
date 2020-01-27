@@ -1,0 +1,47 @@
+.center {
+    text-align: center;
+}
+
+.ul-nav-rox {
+    margin-left: auto;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.ul-services-rox {
+    flex-direction: row;
+    display: flex;
+    padding-left: 0;
+}
+
+.ul-services-rox li {
+    position: relative;
+    display: block;
+}
+
+#servicios {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#servicios h4 {
+    padding: 1.5rem 0 2rem;
+}
+
+a.navbar-brand img {
+    vertical-align: initial !important;
+}
+
+nav.navbar {
+    background-color: rgba(255,255,255,0) !important;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+@media (min-width: 1200px) {
+    li.nav-item {
+        margin-left: 1.5rem !important;
+    }
+}

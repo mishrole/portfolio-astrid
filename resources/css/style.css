@@ -156,6 +156,8 @@ nav.navbar {
     padding-bottom: 2rem
 }
 
+/*  PORTAFOLIO */
+
 .orange {
     color: #E75B00 !important;
 }
@@ -171,12 +173,28 @@ nav.navbar {
     font-weight: bold;
 }
 
+#portafolio h4 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E75B00;
+}
+
+#portafolio h4 a:hover {
+    color: #000000;
+}
+
 .portafolio-picture {
     margin: 2rem 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
+}
+
+/*  PERFIL  */
+
+#perfil {
+    background-color: #000000;
 }
 
 /*  FOOTER */

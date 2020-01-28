@@ -12,19 +12,31 @@
 
     <div id="home">
 
-        <div id="container-carousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+        <div id="container-carousel" class="carousel slide" data-ride="carousel"> <!--data-interval="3500"-->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="resources/img/fondo.jpg" alt="Jirafa" class="d-block w-100">
+                    <!--<img src="resources/img/fondo.jpg" alt="Jirafa" class="d-block w-100">-->
                 </div>
                 <div class="carousel-item">
-                    <img src="resources/img/fondo2.jpg" alt="Jirafa" class="d-block w-100">
+                    <!--<img src="resources/img/fondo2.jpg" alt="Jirafa" class="d-block w-100">-->
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+
+                <div id="home-content">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Astrid Rox</p>
+                            <p>Diseñadora Gráfica</p>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white fixed-top">
                     <a href="index.html" class="navbar-brand">
-                        <img src="resources/img/logo.png" alt="">
+                        <!--<img src="resources/img/logo.png" alt="">-->
+                    ASTRID ROX
                     </a>
-                    <h4>ASTRID ROX</h4>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -37,10 +49,12 @@
                         </ul>
                     </div>
                 </nav>
-            </div>
-        </div>
+                
+            </div> <!-- Inner -->
+            
+        </div> <!-- Container-carousel -->
 
-    </div>
+    </div> <!-- Home -->
 
     <div id="servicios" class="container">
         <div class="row">
@@ -48,26 +62,21 @@
                 <h4>SERVICIOS</h4>
             </div>
             <div class="col-sm-4">
-                    <a href="#">
-                        <img src="resources/img/servicio1.PNG" alt="">
-                    </a>
-                    <div id="txt-servicio">
+                <a href="#">
+                    <img src="resources/img/web-design.svg" alt="" class="col-5 col-sm-8"></a>
+                    <div class="txt-servicio">
                         <p>WEB DESIGN</p>
                     </div>
             </div>
             <div class="col-sm-4">
-                    <a href="#">
-                        <img src="resources/img/servicio2.PNG" alt="">
-                    </a>
-                    <div id="txt-servicio">
+                    <img src="resources/img/digital-design.svg" alt="" class="col-5 col-sm-8">
+                    <div class="txt-servicio">
                         <p>DIGITAL DESIGN</p>
                     </div>
             </div>
             <div class="col-sm-4">
-                    <a href="#">
-                        <img src="resources/img/servicio3.PNG" alt="">
-                    </a>
-                    <div id="txt-servicio">
+                    <img src="resources/img/ui-design.svg" alt="" class="col-5 col-sm-8">
+                    <div class="txt-servicio">
                         <p>UI DESIGN</p>
                     </div>
             </div>
@@ -77,8 +86,23 @@
     <div id="contacto">
 
     </div>
+
+    <div id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>+51 981 218 315</p>
+                </div>
+                <div class="col-sm-6">
+                    <p>Hi</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
     
     <script src="utilities/jquery/jquery-3.4.1.js"></script>
     <script src="utilities/bootstrap/js/bootstrap.js"></script>
+    <script src="resources/js/main.js"></script>
 </body>
 </html>

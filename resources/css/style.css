@@ -20,28 +20,111 @@
 }
 
 #servicios {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     text-align: center;
+    color: #E75B00;
 }
 
 #servicios h4 {
-    padding: 1.5rem 0 2rem;
+    padding: 2rem 0 2rem;
+    font-weight: bold;
 }
 
 a.navbar-brand img {
     vertical-align: initial !important;
 }
 
+a.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #FFFFFF !important;
+}
+
 nav.navbar {
     background-color: rgba(255,255,255,0) !important;
+    /*background-color: rgba(0,0,0,0.13) !important;*/
+    padding-top: 0.8rem;
+}
+
+.nav-item a {
+    color: #FFFFFF !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #E75B00 !important;
+    transition: color 0.2s ease-in-out;
 }
 
 .carousel-item img {
     height: 100vh;
 }
 
+h4 {
+    font-size: 1.2rem;
+}
+
+.txt-servicio:hover, .navbar h4, #servicios h4  {
+    cursor: default;
+}
+
+.txt-servicio {
+    padding-top: 1rem;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+    outline: transparent !important;
+}
+
+#home-content {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    top: 40vh;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item {
+    height: 100% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    /*background-attachment: fixed !important;*/
+}
+
+.carousel-item:nth-of-type(1) {
+    background: url(../img/fondo.jpg);
+}
+
+.carousel-item:nth-of-type(2) {
+    background: url(../img/fondo3.jpg);
+}
+
+.carousel-item:nth-of-type(3) {
+    background: url(../img/fondo4.jpg);
+}
+
+.carousel-item:nth-of-type(4) {
+    background: url(../img/fondo5.jpg);
+}
+
+
 @media (min-width: 1200px) {
     li.nav-item {
         margin-left: 1.5rem !important;
     }
 }
+
+/*E75B00*/

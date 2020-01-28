@@ -1,5 +1,6 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.13rem;
 }
 
 .center {
@@ -89,11 +90,11 @@ nav.navbar {
 }
 
 .carousel-item:nth-of-type(1) {
-    background: url(../img/ok.jpg);
+    background: url(../img/33.jpg);
 }
 
 .carousel-item:nth-of-type(2) {
-    background: url(../img/33.jpg);
+    background: url(../img/ok.jpg);
 }
 /*
 .carousel-item:nth-of-type(3) {
@@ -144,13 +145,28 @@ nav.navbar {
 }
 
 #servicios {
-    height: 100vh;
-    padding-top: 8rem;
+    padding: 8rem 0;
 }
 
 #servicios .row .col-sm-12 {
     padding-bottom: 2rem
 }
+
+#portafolio {
+    padding-top: 2.5rem;
+    text-align: center;
+    color: #E75B00;
+}
+
+#portafolio h4 {
+    padding: 5rem 0;
+    font-weight: bold;
+}
+
+.portafolio-picture {
+    margin: 2rem 0;
+}
+
 
 /*  FOOTER */
 
@@ -171,5 +187,34 @@ nav.navbar {
         margin-left: 1.5rem !important;
     }
 }
+
+#flip {
+    height: 3rem;
+    overflow: hidden;
+}
+
+#flip > div > div {
+    color:#fff;
+    padding: 0px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 6s linear infinite;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+  
 
 /*E75B00*/

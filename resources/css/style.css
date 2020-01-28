@@ -45,8 +45,12 @@ nav.navbar {
     transition: background-color 0.3s ease-out;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #FFFFFF;
+}
+
 .nav-item a {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     transition: color 0.2s ease-in-out;
 }
 
@@ -152,6 +156,10 @@ nav.navbar {
     padding-bottom: 2rem
 }
 
+.orange {
+    color: #E75B00 !important;
+}
+
 #portafolio {
     padding-top: 2.5rem;
     text-align: center;
@@ -167,6 +175,9 @@ nav.navbar {
     margin: 2rem 0;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
 
 /*  FOOTER */
 

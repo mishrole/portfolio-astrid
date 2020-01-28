@@ -1,6 +1,12 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .center {
     text-align: center;
 }
+
+/*  HOME - NAVBAR */
 
 .ul-nav-rox {
     margin-left: auto;
@@ -19,17 +25,6 @@
     display: block;
 }
 
-#servicios {
-    padding-top: 2.5rem;
-    text-align: center;
-    color: #E75B00;
-}
-
-#servicios h4 {
-    padding: 2rem 0 2rem;
-    font-weight: bold;
-}
-
 a.navbar-brand img {
     vertical-align: initial !important;
 }
@@ -43,9 +38,10 @@ a.navbar-brand {
 }
 
 nav.navbar {
-    background-color: rgba(255,255,255,0) !important;
+    background-color: rgba(255,255,255,0);
     /*background-color: rgba(0,0,0,0.13) !important;*/
     padding-top: 0.8rem;
+    transition: background-color 0.3s ease-out;
 }
 
 .nav-item a {
@@ -60,18 +56,6 @@ nav.navbar {
 
 .carousel-item img {
     height: 100vh;
-}
-
-h4 {
-    font-size: 1.2rem;
-}
-
-.txt-servicio:hover, .navbar h4, #servicios h4  {
-    cursor: default;
-}
-
-.txt-servicio {
-    padding-top: 1rem;
 }
 
 .navbar-toggler {
@@ -105,13 +89,13 @@ h4 {
 }
 
 .carousel-item:nth-of-type(1) {
-    background: url(../img/fondo.jpg);
+    background: url(../img/ok.jpg);
 }
 
 .carousel-item:nth-of-type(2) {
-    background: url(../img/fondo3.jpg);
+    background: url(../img/33.jpg);
 }
-
+/*
 .carousel-item:nth-of-type(3) {
     background: url(../img/fondo4.jpg);
 }
@@ -119,14 +103,67 @@ h4 {
 .carousel-item:nth-of-type(4) {
     background: url(../img/fondo5.jpg);
 }
-
+*/
 .layer {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+#name {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#title {
+    font-size: 1.2rem;
+}
+
+/*  SERVICIOS   */
+
+#servicios {
+    padding-top: 2.5rem;
+    text-align: center;
+    color: #E75B00;
+}
+
+#servicios h4 {
+    padding: 5rem 0;
+    font-weight: bold;
+}
+
+.txt-servicio {
+    padding-top: 1rem;
+}
+
+#servicios .row .col-sm-4 {
+    padding-bottom: 2rem;
+}
+
+#servicios {
+    height: 100vh;
+    padding-top: 8rem;
+}
+
+#servicios .row .col-sm-12 {
+    padding-bottom: 2rem
+}
+
+/*  FOOTER */
+
+#footer {
+    margin-top: 3.5rem;
+    background-color: #000000;
+    padding: 1.5rem 0;
+    color: #FFFFFF;
+}
+
+.dark {
+    background-color: #000000 !important;
+    transition: background-color 0.3s ease-in;
 }
 
 @media (min-width: 1200px) {
